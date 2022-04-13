@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Jéf & Cia",
+    "classifications": [
+        "WebAPI"
+    ],
+    "identity": "Empresa.Template.WebApi",
+    "name": "Nosso template de webapi",
+    "shortName": "nosso-webapi",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "sourceName": "Empresa.Template.WebApi",
+    "symbols": {
+        "ParamServico": {
+            "type": "parameter",
+            "description": "Paramêtro usado na injeção do serviço X",
+            "datatype": "text",
+            "replaces": "ParamDoServico",
+            "defaultValue": "Invalido"
+        }
+    }
+}
